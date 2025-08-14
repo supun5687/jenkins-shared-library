@@ -5,7 +5,7 @@ def getConfig(String branch){
                 gitBranch: 'main',
                 gitCreds: 'git-https-creds',
                 dockerRegistry: 'index.docker.io/v1/',
-                dockerCreds: 'docker-cred-prod'
+                dockerCreds: 'docker-cred'
             ]
 
         case 'dev':
